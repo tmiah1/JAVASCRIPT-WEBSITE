@@ -5,8 +5,14 @@
     font-family: 'roboto', sans-serif;
 }
 
+.page__1 {
+    width: 1450px;
+    height: 500px;
+}
+
 ul {
     list-style-type: none;
+    text-decoration: none;
 }
 
 .orange {
@@ -26,6 +32,7 @@ nav {
 
 .nav__link--list {
     display: flex;
+    justify-content: right;
 }
 
 .nav__link {
@@ -34,7 +41,7 @@ nav {
 
 .nav__link--anchor {
     font-size: 16px;
-    color: #242424;
+    color: #0e0c12;
     font-weight: 700;
 }
 
@@ -42,7 +49,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 190px;
 }
 
 p {
@@ -57,3 +64,5 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+
