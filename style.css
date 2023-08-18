@@ -30,6 +30,10 @@ nav {
     height: 100px;
 }
 
+.nav__link-wrapper {
+    flex-direction: column;
+}
+
 .nav__link--list {
     display: flex;
     justify-content: right;
@@ -40,6 +44,7 @@ nav {
 }
 
 .nav__link--anchor {
+
     font-size: 16px;
     color: #25134a;
     font-weight: 700;
@@ -121,7 +126,7 @@ h3 {
 }
 
   footer {
-    height: 80px;
+    height: 180px;
     background-color: rgb(36, 9, 109);
     color: white;
     display: flex;
